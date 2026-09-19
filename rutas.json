@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Universidad Lasallista ➔ Casa",
+    "tiempo": "12 min",
+    "modalidad": "Ruta Accesible Verificada",
+    "alerta": "Cruce peatonal a 20m (Semaforo sonoro disponible)",
+    "disponible": true
+  },
+  {
+    "id": 2,
+    "nombre": "Casa → Fundacion Aliada",
+    "tiempo": "18 min",
+    "modalidad": "Centro de apoyo - 3.1 km",
+    "alerta": "Obras en la via a 100m",
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "nombre": "Estacion Metro ➔ Parque Principal",
+    "tiempo": "8 min",
+    "modalidad": "Transito peatonal elevado",
+    "alerta": "Sin alertas reportadas",
+    "disponible": true
+  }
+]

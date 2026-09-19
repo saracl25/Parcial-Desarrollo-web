@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYLONS - Asistente de Movilidad Accesible</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <h1>CYLONS</h1>
+            <span class="badge-tts">Estado TTS: <strong id="estadoTTS">ACTIVADO</strong></span>
+        </div>
+        <p class="subtitle">Tu guia de voz para moverte por la ciudad con seguridad.</p>
+        <nav>
+            <a href="#rutas">Rutas Guardadas</a>
+            <a href="#noticias">Alertas Urbanas</a>
+            <a href="#perfil">Perfil de Accesibilidad</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seccion de Control Principal -->
+        <section id="panel-control" class="card-hero">
+            <h2>Navegacion Asistida</h2>
+            <button id="btnNavegacion" class="btn-primary">
+                 INICIAR NAVEGACION
+                <span>Guia por voz paso a paso</span>
+            </button>
+            <div id="mensajeConsola" class="mensaje-alerta"></div>
+        </section>
+
+        <!-- Seccion de Rutas Dinamicas desde JSON local -->
+        <section id="rutas">
+            <h2>Destinos y Rutas Guardadas</h2>
+            <div id="listaRutas" class="contenedor-grid"></div>
+        </section>
+
+        <!-- Seccion de Notificaciones / Alertas desde API externa -->
+        <section id="noticias">
+            <h2>Alertas Comunitarias y Novedades Urbanas</h2>
+            <div id="listaNoticias" class="contenedor-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>CYLONS - Corporacion Universitaria Lasallista (2026)</p>
+        <p><small>Desarrollado para asistencia a personas con discapacidad visual.</small></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
