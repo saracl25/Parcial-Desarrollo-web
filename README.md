@@ -61,7 +61,6 @@ El proyecto contempla el desarrollo de las siguientes funcionalidades clave orie
 El usuario cuenta con un acceso rápido para iniciar el guiado paso a paso por voz, ver el estado actual del servicio TTS, la ruta activa y los avisos de proximidad a cruces peatonales.
 
 ![Pantalla de Inicio](images/inicio.png)
-inicio.png
 
 ---
 
